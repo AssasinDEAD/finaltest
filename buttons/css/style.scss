@@ -1,0 +1,59 @@
+li {
+   list-style-type: none;
+}
+
+.qwerty {
+   &__main {
+   }
+
+   &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__item {
+      width: 80px;
+      height: 80px;
+      border: solid 2px black;
+      margin: 20px;
+   }
+}
+.asdf {
+   &__main {
+   }
+
+   &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__item {
+      width: 80px;
+      height: 80px;
+      border: solid 2px black;
+      margin: 20px;
+   }
+}
+.zxcv {
+   &__main {
+   }
+
+   &__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+
+   &__item {
+      width: 80px;
+      height: 80px;
+      border: solid 2px black;
+      margin: 20px;
+   }
+}
+
+.red {
+   background-color: green;
+}
